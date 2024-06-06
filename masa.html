@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Css/container.css">
+    <script src="conversiones.js" defer></script>
+</head>
+<body>
+    <div class="fila2">
+        <span>Convertir de</span>
+        <select name="unidad3" id="masaDesde">
+            <option value="to">Tonelada</option>
+            <option value="kg">Kilogramo</option>
+            <option value="gr">Gramo</option>
+            <option value="migr">Miligramo</option>
+            <option value="lb">Libra</option>
+        </select>
+        <span>a</span>
+        <select name="unidad4" id="masaHasta">
+            <option value="to">Tonelada</option>
+            <option value="kg">Kilogramo</option>
+            <option value="gr">Gramo</option>
+            <option value="migr">Miligramo</option>
+            <option value="lb">Libra</option>
+        </select>
+        
+        <input type="number" id="masaEntrada" placeholder="valor">
+
+        <input type="text" id="masaResultado" class="res" placeholder="res">
+
+        <button onclick="convertirMasa()">Convertir</button>
+
+        <div>
+            <a class="bn" href="index.html">Regresar</a>
+        </div>
+    </div>
+    <script src="./Js/index.js"></script>
+</body>
+</html>

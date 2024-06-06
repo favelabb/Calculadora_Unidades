@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Css/container.css">
+    <script src="conversiones.js" defer></script>
+</head>
+<body>
+    <div class="fila1">
+        <span>Convertir de</span>
+        <select name="unidad1" id="longitudDesde">
+            <option value="km">Kilometro</option>
+            <option value="m">Metro</option>
+            <option value="cm">Centimetro</option>
+            <option value="mi">Milla</option>
+            <option value="y">Yarda</option>
+            <option value="ft">Pie</option>
+            <option value="in">Pulgada</option>
+        </select>
+        <span>a</span>
+        <select name="unidad2" id="longitudHasta">
+            <option value="km">Kilometro</option>
+            <option value="m">Metro</option>
+            <option value="cm">Centimetro</option>
+            <option value="mi">Milla</option>
+            <option value="y">Yarda</option>
+            <option value="ft">Pie</option>
+            <option value="in">Pulgada</option>
+        </select>
+
+        <input type="number" id="longitudEntrada" placeholder="valor">
+
+        <input type="text" id="longitudResultado" class="res" placeholder="res">
+
+        <button onclick="convertirLongitud()">Convertir</button>
+
+        <div>
+            <a class="bn" href="index.html">Regresar</a>
+        </div>
+    </div>
+    <script src="./Js/index.js"></script>
+</body>
+</html>

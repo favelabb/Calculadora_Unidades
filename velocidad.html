@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Css/container.css">
+    <script src="conversiones.js" defer></script>
+</head>
+<body>
+    <div class="fila3">
+        <span>Convertir de</span>
+        <select name="unidad5" id="velocidadDesde">
+            <option value="mph">Millas por hora</option>
+            <option value="mps">Millas por segundo</option>
+            <option value="kph">Kilometros por hora</option>
+            <option value="kps">Kilometros por segundo</option>
+            <option value="kt">Nudo</option>
+            <option value="mps">Metros por segundo</option>
+        </select>
+        <span>a</span>
+        <select name="unidad6" id="velocidadHasta">
+            <option value="mph">Millas por hora</option>
+            <option value="mps">Millas por segundo</option>
+            <option value="kph">Kilometros por hora</option>
+            <option value="kps">Kilometros por segundo</option>
+            <option value="kt">Nudo</option>
+            <option value="mps">Metros por segundo</option>
+        </select>
+
+        <input type="number" id="velocidadEntrada" placeholder="valor">
+
+        <input type="text" id="velocidadResultado" class="res" placeholder="res">
+
+        <button onclick="convertirVelocidad()">Convertir</button>
+
+        <div>
+            <a class="bn" href="index.html">Regresar</a>
+        </div>
+    </div>
+    <script src="./Js/index.js"></script>
+</body>
+</html>
